@@ -74,33 +74,3 @@ th, td {
 #homework li:last-child {
     border-bottom: none;
 }
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-}
-
-/* Медиа-запрос для мобильных устройств */
-@media (max-width: 768px) {
-    #schedule {
-        display: block;
-        overflow-x: auto; /* Добавляем горизонтальную прокрутку */
-    }
-
-    #schedule thead {
-        display: table-row;
-    }
-
-    #schedule th {
-        min-width: 150px; /* Устанавливаем минимальную ширину для ячеек */
-        text-align: center;
-
-    }
-
-    #schedule td {
-        min-width: 150px; /* Устанавливаем минимальную ширину для ячеек */
-        text-align: center;
-    }
-}
