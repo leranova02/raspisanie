@@ -19,34 +19,26 @@ main {
     padding: 20px;
 }
 
+.schedule {
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
 }
 
 th, td {
-    border: 1px solid #000000;
+    border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
     vertical-align: top; /* Added for alignment */
 }
 
-#schedule {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-}
-
-#schedule th, #schedule td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-    vertical-align: top;
-}
-
-#schedule th {
-    background-color: #eee;
-    font-weight: bold;
+th {
+    background-color: #70b0f8;
+    color: #fff;
 }
 
 #homework {
