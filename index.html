@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание уроков</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Расписание уроков</h1>
+    </header>
+
+    <main>
+        <div class="schedule">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Понедельник</th>
+                        <th>Вторник</th>
+                        <th>Среда</th>
+                        <th>Четверг</th>
+                        <th>Пятница</th>
+                        <th>Суббота</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="monday">
+                            Разговор о важном<br>
+                            Русский язык<br>
+                            Математика<br>
+                            Литературное чтение<br>
+                            КНРС(Я)<br>
+                        </td>
+                        <td id="tuesday">
+                            Русский язык<br>
+                            Математика<br>
+                            Окружающий мир<br>
+                            Труд<br>
+                            Английский язык<br>
+                        </td>
+                        <td id="wednesday">
+                            Физкультура<br>
+                            Физкультура<br>
+                            Математика<br>
+                            Русский язык<br>
+                            Литературное чтение<br>
+                        </td>
+                        <td id="thursday">
+                            Русский язык<br>
+                            Математика<br>
+                            Информатика<br>
+                            ИЗО<br>
+                            Литературное чтение<br>
+                        </td>
+                        <td id="friday">
+                            Русский язык<br>
+                            Якутский гос.язык<br>
+                            Литературное чтение<br>
+                            Окружающий мир<br>
+                            Английский язык<br>
+                        </td>
+                        <td id="saturday">
+                            Музыка<br>
+                            Физкультура<br>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="homework-section">
+            <h2>Домашнее задание</h2>
+            <div class="homework-container">
+                <div class="day-homework" id="monday-homework">
+                    <h3>Понедельник</h3>
+                    <ul id="monday-homework-list">
+                        <li>Математика: №1-10</li>
+                        <li>Русский язык: Упр. 12</li>
+                        <li>Английский язык: Текст стр. 20</li>
+                    </ul>
+                </div>
+
+                <div class="day-homework" id="tuesday-homework">
+                    <h3>Вторник</h3>
+                    <ul id="tuesday-homework-list">
+                        <li>Литература: Прочитать рассказ</li>
+                        <li>Алгебра: №11-20</li>
+                    </ul>
+                </div>
+
+                <div class="day-homework" id="wednesday-homework">
+                    <h3>Среда</h3>
+                    <ul id="wednesday-homework-list">
+                        <li>Геометрия: №21-30</li>
+                    </ul>
+                </div>
+
+                <div class="day-homework" id="thursday-homework">
+                    <h3>Четверг</h3>
+                    <ul id="thursday-homework-list">
+                        <li>Математика: №31-40</li>
+                        <li>Русский язык: Сочинение</li>
+                        <li>Английский язык: Учить слова</li>
+                    </ul>
+                </div>
+
+                <div class="day-homework" id="friday-homework">
+                    <h3>Пятница</h3>
+                    <ul id="friday-homework-list">
+                        <li>Литература: Анализ стихотворения</li>
+                        <li>Алгебра: №41-50</li>
+                    </ul>
+                </div>
+                 <div class="day-homework" id="saturday-homework">
+                    <h3>Суббота</h3>
+                    <ul id="saturday-homework-list">
+                        <li>Физика: Решить задачи</li>
+                        <li>Химия: Подготовиться к контрольной</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+header {
+    background-color: #70b0f8;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.schedule {
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    vertical-align: top; /* Added for alignment */
+}
+
+th {
+    background-color: #70b0f8;
+    color: #fff;
+}
+
+.homework-section {
+    margin-top: 30px;
+}
+
+.homework-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.day-homework {
+    width: 30%; /* Adjust as needed */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.day-homework h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.day-homework ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
