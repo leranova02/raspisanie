@@ -7,16 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
         <h1>Расписание уроков</h1>
     </header>
 
     <main>
-        <table id="schedule">
-            <thead>
-                <tr>
-                    <th>Понедельник</th>
+        <div class="schedule">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Понедельник</th>
                         <th>Вторник</th>
                         <th>Среда</th>
                         <th>Четверг</th>
@@ -65,24 +65,65 @@
                             Музыка<br>
                             Физкультура<br>
                         </td>
-                </tr>
-            </tbody>
-        </table>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-        <section id="homework">
-            <h2>Домашнее задание на неделю</h2>
-            <ul>
-                <li><b>Понедельник:</b> Математика - страница 56, упражнения 1-5; Русский язык - повторить правила.</li>
-                <li><b>Вторник:</b> Физика - подготовить доклад по теме "Механика"; Английский - выучить новые слова.</li>
-                <li><b>Среда:</b> Химия - решить задачи по уравнениям реакций; Литература - прочитать рассказ.</li>
-                <li><b>Четверг:</b> Биология - выучить строение клетки; Музыка - подготовить песню.</li>
-                <li><b>Пятница:</b> Обществознание - прочитать главу о правах человека; Право - составить конспект.</li>
-                <li><b>Суббота:</b>  Повторение пройденного материала.</li>
-            </ul>
-        </section>
+        <div class="homework-section">
+            <h2>Домашнее задание</h2>
+            <div class="homework-container">
+                <div class="day-homework" id="monday-homework">
+                    <h3>Понедельник</h3>
+                    <ul id="monday-homework-list">
+                        <li>Математика: №1-10</li>
+                        <li>Русский язык: Упр. 12</li>
+                        <li>Английский язык: Текст стр. 20</li>
+                    </ul>
+                </div>
 
+                <div class="day-homework" id="tuesday-homework">
+                    <h3>Вторник</h3>
+                    <ul id="tuesday-homework-list">
+                        <li>Литература: Прочитать рассказ</li>
+                        <li>Алгебра: №11-20</li>
+                    </ul>
+                </div>
+
+                <div class="day-homework" id="wednesday-homework">
+                    <h3>Среда</h3>
+                    <ul id="wednesday-homework-list">
+                        <li>Геометрия: №21-30</li>
+                    </ul>
+                </div>
+
+                <div class="day-homework" id="thursday-homework">
+                    <h3>Четверг</h3>
+                    <ul id="thursday-homework-list">
+                        <li>Математика: №31-40</li>
+                        <li>Русский язык: Сочинение</li>
+                        <li>Английский язык: Учить слова</li>
+                    </ul>
+                </div>
+
+                <div class="day-homework" id="friday-homework">
+                    <h3>Пятница</h3>
+                    <ul id="friday-homework-list">
+                        <li>Литература: Анализ стихотворения</li>
+                        <li>Алгебра: №41-50</li>
+                    </ul>
+                </div>
+                 <div class="day-homework" id="saturday-homework">
+                    <h3>Суббота</h3>
+                    <ul id="saturday-homework-list">
+                        <li>Физика: Решить задачи</li>
+                        <li>Химия: Подготовиться к контрольной</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </main>
 
+    <script src="script.js"></script>
 </body>
 </html>
-
